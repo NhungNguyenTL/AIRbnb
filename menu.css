@@ -1,0 +1,154 @@
+body{
+    margin:0;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+}
+.head{
+    background-image: url('https://a0.muscache.com/4ea/air/v2/pictures/a76de86e-a94a-4863-adb7-e8a86be06290.jpg?t=r:w775-h518-sfit,e:fjpg-c80');
+    background-size: cover;
+    background-position: center;
+    height:1000px;   
+}
+
+
+.logo{
+    color:white;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo p{
+    padding-left: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.head-menu {
+    padding: 30px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: 550;
+    font-size: 15px;
+}
+
+.menu {
+    color:white;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+}
+
+.menu .item  a{
+    text-decoration: none;
+    color:white;
+    margin-right: 8px;
+    padding-right: 10px;
+}
+.menu .special a{
+    background-color: rgba(100, 100, 100, 0.5);
+    padding: 8px;
+    transition: all 0.2s;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.18) !important;
+     border-radius: 15%;
+}
+
+.menu .item  a:hover{
+    background-color: rgba(100, 100, 100, 0.5);
+    padding: 8px;
+    transition: all 0.2s;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.18) !important;
+     border-radius: 15%;
+}
+
+.has-submenu{
+    position: relative;
+}
+
+.sub-menu {
+    display: none;
+    text-decoration: none;
+    list-style: none;
+    position: absolute;
+    padding:10px 0;
+    top:100%;
+    left:10px;
+}
+
+.has-submenu:hover .sub-menu{
+    display: block;
+}
+
+.form-book{
+    width: 440px;
+    height:590px;
+    background-color: ivory;
+    margin-left:100px;
+    border-radius: 4px;
+}
+
+.book{
+    padding:32px 32px 24px;
+
+}
+
+.book input{
+    border-radius: 3px;
+}
+
+.date{
+    display: flex;
+    flex-direction:row;
+}
+
+.text{
+    text-transform: uppercase;
+    font-family: inherit;
+    margin:20px 0 8px;
+    font-weight: 550;
+    font-size:15px;
+}
+
+.input input{
+    height:48px;
+    width: 331px;
+    padding-left:20px;
+    font-size:16px;
+    font-weight: 300;
+}
+.input1 input{
+    height:48px;
+    width: 153px;
+    padding-left:20px;
+    font-size:16px;
+    font-weight: 300;
+}
+
+.btn{
+    margin-right: 0px;
+}
+
+.btn button{
+    width: 30%;
+    height: 48px;
+    background-color: #ff5a5f;
+    margin-top: 20px ;
+    color:white;
+    font-size:17px;
+    border-radius: 7px;
+    
+   
+}
+
+.more-infor{
+    margin-top:100px;
+    width: 440px;
+    height: 160px;
+    background-color: ivory ;
+    border-radius: 4px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18) !important;;
+}
+
+
+.more-infor p{
+    padding: 20px 10px 10px 20px;
+}
